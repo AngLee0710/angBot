@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "linebot": "^1.4.1",
+    "mongoose": "^5.2.12",
+    "morgan": "~1.9.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.1.1",
+    "unidecode": "^0.1.8"
+  }
+}
